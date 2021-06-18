@@ -93,7 +93,7 @@ h1, h2 {
     margin: 3px 3px 0px 5px;
 }
 .theme__select {
-    background: red;
+    background: var(--keypad-background);
     padding: .2rem;
     border-radius: 2rem;
 }
