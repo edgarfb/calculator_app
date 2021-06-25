@@ -60,6 +60,14 @@ Next I want to apply Javascript on my next challenge.
 
 ### Useful resources
 
+- [Frontend Master Bootcamp](https://frontendmasters.com/bootcamp/)
+
+#### Teachers
+
+- [Jen Kramer](https://frontendmasters.com/teachers/jen-kramer/)  Harvard University Extension School
+- [Brian Holt](https://frontendmasters.com/teachers/brian-holt/)  Microsoft
+
+
 - Conquering responsive layout by [Kevin Powell](https://courses.kevinpowell.co/conquering-responsive-layouts) - 
 This helped me for to achive a better layout. 
 
