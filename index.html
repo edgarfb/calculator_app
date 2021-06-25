@@ -35,11 +35,11 @@
               <label for="theme-3">3</label>
             </div>
             <div class="theme__select flex">
-              <input type="radio" name="theme" id="theme-1">
+              <input type="radio" class="" name="theme" id="theme-1" checked>
               
-              <input type="radio" name="theme" id="theme-2">
+              <input type="radio" class="" name="theme" id="theme-2">
               
-              <input type="radio" name="theme" id="theme-3">
+              <input type="radio" class="" name="theme" id="theme-3">
             </div>
             
             
@@ -48,33 +48,33 @@
       </div>
 
       <div class="display">
-        <div class="display__num">
-          399,89
+        <div id="display" class="display__num">
+          0
         </div>
       </div>
 
       <main class="calc__numbers">
         <div class="calc__sm flex">
-          <div class="calc__btn num">7</div>
-          <div class="calc__btn num">8</div>
-          <div class="calc__btn num">9</div>
-          <div class="calc__btn">DEL</div>
-          <div class="calc__btn num">4</div>
-          <div class="calc__btn num">5</div>
-          <div class="calc__btn num">6</div>
-          <div class="calc__btn">+</div>
-          <div class="calc__btn num">1</div>
-          <div class="calc__btn num">2</div>
-          <div class="calc__btn num">3</div>
-          <div class="calc__btn">-</div>
-          <div class="calc__btn">.</div>
-          <div class="calc__btn num">0</div>
-          <div class="calc__btn">/</div>
-          <div class="calc__btn">X</div>
+          <div class="calc__btn" data-keycode="55">7</div>
+          <div class="calc__btn" data-keycode="56">8</div>
+          <div class="calc__btn" data-keycode="57">9</div>
+          <div class="calc__btn" data-keycode="46" id="del">DEL</div>
+          <div class="calc__btn" data-keycode="52">4</div>
+          <div class="calc__btn" data-keycode="53">5</div>
+          <div class="calc__btn" data-keycode="54">6</div>
+          <div class="calc__btn" data-keycode="187" id="sum">+</div>
+          <div class="calc__btn" data-keycode="189">1</div>
+          <div class="calc__btn" data-keycode="50">2</div>
+          <div class="calc__btn" data-keycode="51">3</div>
+          <div class="calc__btn" data-keycode="189">-</div>
+          <div class="calc__btn" data-keycode="190">.</div>
+          <div class="calc__btn" data-keycode="48">0</div>
+          <div class="calc__btn" data-keycode="191">/</div>
+          <div class="calc__btn" data-keycode="106">&times;</div>
         </div>
         <div class="calc__md flex">
-          <div id="reset" class="calc__btn btn--md">RESET</div>
-          <div id="equal" class="calc__btn btn--md">=</div>
+          <div id="reset" class="calc__btn btn--md" data-keycode="reset">RESET</div>
+          <div id="equal" class="calc__btn btn--md" data-keycode="13">=</div>
         </div>
       </main>
     </div>
